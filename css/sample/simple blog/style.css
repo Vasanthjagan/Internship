@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.intro h2{
+    color: sandybrown;
+    text-decoration: underline;
+}
+.intro p{
+    color: burlywood;
+    border: 2px solid black;
+    background-color: black;
+}
+.intro ul li{
+    color: rgb(176, 144, 144);
+    
+}
+footer{
+    header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+}
