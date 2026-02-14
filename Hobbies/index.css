@@ -1,0 +1,25 @@
+header h1{
+    text-align: center;
+}
+.ho{
+    background-color: green;
+    color: white;
+    font-size: larger;
+}
+.ho h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fb{
+    font-size: larger;
+}
+.fb h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fl{
+    background-color: green;
+    color: white;
+    font-size: larger;
+}
+.fl h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
