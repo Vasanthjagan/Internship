@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: blue;
+}
+.about{
+    margin-top: .5em;
+    margin-left: 1.5em;
+    margin-bottom: .5em;
+}
+.skills{
+    
+    margin-top: .5em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: .5em;
+    background-color: blue;
+}
+.skills h2{
+    margin-left: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .75em;
+}
+.projects{
+    margin-top: .5em;
+    margin-left: 1.5rem;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: .5em;
+}
+.projects h2{
+    padding-bottom: .5em ;
+}
+.projects p{
+    margin-left: 1.5rem;
+    padding-bottom: 1em;
+}
+.contact{
+    margin-top: .5em;
+    margin-left: 1.5rem;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: .5em;
+}
+.contact h2{
+    margin-bottom: .5em;
+}
+.contact label{
+    margin-top: .5em;
+    font-size: 1.2em;
+}
+.input{
+    border: 1px solid black;
+    outline: none;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 5px;
+}
+.contact.input.input-name{
+    box-shadow: 0 0 5px 0;
+}
+.contact.input.input-name:hover{
+    box-shadow: 0 0 10px aqua;
+    border-color: aqua;
+}
+.btn{
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 70%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+.btn.btn:hover, .btn.btn:focus{
+    box-shadow: 0 0 5px 0;
+    background-color:hsl(0, 0%, 70%);
+}
