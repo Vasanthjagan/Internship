@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+.btn{
+    background-color: hsl(0, 0%, 90%);
+    border: 1px solid hsl(0, 0%, 70%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+.btn.btn:hover, .btn.btn:focus{
+    box-shadow: 0 0 5px 0;
+    background-color:hsl(0, 0%, 70%);
+}
+
+.btn-primary{
+    background-color: hsl(280, 70%, 90%);
+    border: 1px solid hsl(270, 90%, 70%);
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: .5em;
+}
+.btn-primary:hover,.btn-primary:focus{
+    box-shadow: 0 0 5px 0;
+    color: white;
+    background-color: hsl(275, 90%, 70%);
+}
+.btn-accent{
+    background-color: hsl(231, 85%, 62%);
+    border: 1px solid hsl(240, 85%, 62%);
+    border-radius: .5em;
+    outline: none;
+    cursor: pointer;
+    padding: .5em 1em;
+}
+.btn-accent:hover, .btn-accent:focus{
+    background-color: hsl(220, 85%, 62%);
+    box-shadow: 0 0 5px 0;
+    color: white;
+}
+.btn-danger{
+    background-color: hsl(0, 91%, 50%);
+    border-radius: 1px solid hsl(0, 100%, 33%);;
+}
+.btn.btn-danger:hover{
+    background-color: hsl(10, 94%, 33%);
+    box-shadow: 0 0 5px 0;
+    color: white;
+}
+.btn-large{
+    font-size: 1.25rem;
+}
+.btn-small{
+    font-size: .75rem;
+}
+.btn-pill{
+    background-color: green;
+    color: white;
+    border-radius: 100px;
+}
+.btn-custom{
+    background: linear-gradient(to right,hsl(275, 90%, 70%),hsl(240, 85%, 62%));
+}
