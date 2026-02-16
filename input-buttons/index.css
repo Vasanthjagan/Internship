@@ -1,0 +1,55 @@
+*{
+    margin: .25em;
+}
+.input{
+    border: 1px solid black;
+    outline: none;
+    font-size: 1em;
+    padding: .5em;
+    border-radius: 5px;
+}
+.input-default{
+    box-shadow: 0 0 5px 0;
+}
+.input-default:focus{
+    box-shadow: 0 0 10px aqua;
+    border-color: aqua;
+}
+
+.input-success{
+    box-shadow: 0 0 5px 0;
+}
+.input-success:focus{
+    box-shadow: 0 0 10px hsl(107, 80%, 66%) ;
+    border-color: hsl(107, 80%, 66%);
+}
+
+.input-error{
+    box-shadow: 0 0 10px 0;
+}
+.input-error:focus{
+    box-shadow: 0 0 10px hsl(0, 91%, 48%);;
+    border-color: hsl(0, 91%, 48%);
+}
+
+.input-large{
+    box-shadow: 0 0 10px 0;
+}
+.input-large:focus{
+    box-shadow: 0 0 10px hsl(287, 81%, 46%);
+    border-color: hsl(287, 81%, 46%);
+}
+.input-small{
+    box-shadow: 0 0 10px 0;
+}
+.input-small:focus{
+    box-shadow: 0 0 10px hsl(343, 69%, 68%);
+    border-color: hsl(343, 69%, 68%);
+}
+.input-disabled{
+    box-shadow: 0 0 10px 0;
+}
+.input-disabled:focus{
+    box-shadow: 0 0 10px hsl(343, 69%, 68%);
+    border-color: hsl(195, 59%, 7%);
+}
